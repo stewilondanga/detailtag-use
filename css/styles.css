@@ -74,7 +74,6 @@ html body .container details p {
   margin-top: 2px;
 }
 
-/*
 .share__icon {
   width: 32px;
   height: 32px;
@@ -84,6 +83,7 @@ html body .container details p {
   margin-right: 3px;
 }
 
+/*
 .share__icon:last-of-type {
   margin-right: 0px;
 }
