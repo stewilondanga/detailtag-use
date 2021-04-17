@@ -41,11 +41,11 @@ html body .container details[open] {
   height: fit-content;
 }
 
-/*
 html body .container details[open] summary~* {
   animation: sweep-in 0.5s ease-in-out;
 }
 
+/*
 @keyframes sweep-in {
   0% {
     opacity: 0;
