@@ -28,11 +28,11 @@ html body .container details summary::-webkit-details-marker {
   color: #38add1;
 }
 
-/*
 html body .container details {
   transition: height 1s ease;
 }
 
+/*
 html body .container details:not([open]) {
   height: fit-content;
   background: white;
