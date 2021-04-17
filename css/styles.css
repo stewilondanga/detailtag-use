@@ -45,7 +45,6 @@ html body .container details[open] summary~* {
   animation: sweep-in 0.5s ease-in-out;
 }
 
-/*
 @keyframes sweep-in {
   0% {
     opacity: 0;
@@ -58,6 +57,7 @@ html body .container details[open] summary~* {
   }
 }
 
+/*
 html body .container details {
   width: 100%;
   margin-top: 10px;
