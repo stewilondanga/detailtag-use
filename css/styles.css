@@ -1,9 +1,85 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+  font-weight: 200;
+}
+
+html body {
+  background: #bbbcbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+html body .container {
+  border-top: 2px #4286f4 solid;
+  height: fit-content;
+  width: 40vw;
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+html body .container details summary::-webkit-details-marker {
+  color: #38add1;
+}
+
+html body .container details {
+  transition: height 1s ease;
+}
+
+html body .container details:not([open]) {
+  height: fit-content;
+  background: white;
+}
+
+html body .container details[open] {
+  height: fit-content;
+}
+
+html body .container details[open] summary~* {
+  animation: sweep-in 0.5s ease-in-out;
+}
+
+@keyframes sweep-in {
+  0% {
+    opacity: 0;
+    margin-left: -10px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+
+html body .container details {
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 2px #4286f4 solid;
+}
+
+html body .container details summary {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+html body .container details p {
+  font-size: 1rem;
+  margin-top: 2px;
 }
 
 .share__icon {
