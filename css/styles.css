@@ -63,13 +63,13 @@ html body .container details {
   border-bottom: 2px #4286f4 solid;
 }
 
-/*
 html body .container details summary {
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
 }
 
+/*
 html body .container details p {
   font-size: 1rem;
   margin-top: 2px;
