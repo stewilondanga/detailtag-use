@@ -186,7 +186,6 @@ html body .container details p {
   margin: 0 auto;
 }
 
-/*
 .cal {
   display: inline-block;
   background: #ffe;
@@ -197,6 +196,7 @@ html body .container details p {
   transition: all 0.2s linear;
 }
 
+/*
 .cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
