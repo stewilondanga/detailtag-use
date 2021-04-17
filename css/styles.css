@@ -57,13 +57,13 @@ html body .container details[open] summary~* {
   }
 }
 
-/*
 html body .container details {
   width: 100%;
   margin-top: 10px;
   border-bottom: 2px #4286f4 solid;
 }
 
+/*
 html body .container details summary {
   width: 100%;
   text-align: center;
