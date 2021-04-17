@@ -32,12 +32,12 @@ html body .container details {
   transition: height 1s ease;
 }
 
-/*
 html body .container details:not([open]) {
   height: fit-content;
   background: white;
 }
 
+/*
 html body .container details[open] {
   height: fit-content;
 }
